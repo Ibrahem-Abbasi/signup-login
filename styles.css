@@ -1,0 +1,87 @@
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, blue, rebeccapurple);
+    font-family: Arial, sans-serif;
+}
+
+.signup-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, blue, rebeccapurple);
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px purple;
+}
+
+.signup-container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px purple;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+form h1 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form select {
+    width: 95%;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+form input {
+    width: 90%;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+form input:focus {
+    border-color: rebeccapurple;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    box-shadow: 5px 5px 10px darkgray;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: dodgerblue;
+    box-shadow: none;
+}
