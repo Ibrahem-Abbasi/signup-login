@@ -19,7 +19,7 @@
 .login-container {
     width: 100%;
     max-width: 400px;
-    background-color: white;
+    background: linear-gradient(white, lightgrey);
     border-radius: 10px;
     box-shadow: 10px 10px 20px purple;
 }
@@ -29,7 +29,7 @@
     margin-bottom: 50px;
     width: 100%;
     max-width: 600px;
-    background-color: white;
+    background: linear-gradient(white, lightgrey);
     border-radius: 10px;
     box-shadow: 10px 10px 20px purple;
 }
